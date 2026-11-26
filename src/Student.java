@@ -7,7 +7,7 @@ public class Student {
 
     public Student(String maSV, String hoTen, String ngaySinh) {
         this.maSV = maSV;
-        this.hoTen = hoTen;
+        this.hoTen = hoTen.toUpperCase();
         this.ngaySinh = ngaySinh;
     }
 
@@ -24,7 +24,7 @@ public class Student {
     }
 
     public void setHoTen(String hoTen) {
-        this.hoTen = hoTen;
+        this.hoTen = hoTen.toUpperCase();
     }
 
     public void hienThiThongTin() {
